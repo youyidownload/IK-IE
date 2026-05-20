@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Kingdom - 由邑互动官方下载</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft Yahei",sans-serif;}
+        body{
+            background: linear-gradient(135deg,#1a2338,#2c3b57);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            padding: 20px;
+        }
+        .logo-text{
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            color: #f0c868;
+        }
+        .company{
+            font-size: 16px;
+            opacity: 0.8;
+            margin-bottom: 50px;
+        }
+        .game-name{
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-shadow: 0 0 15px rgba(240,200,104,0.5);
+        }
+        .desc{
+            font-size: 15px;
+            opacity: 0.75;
+            margin-bottom: 60px;
+            text-align: center;
+            max-width: 500px;
+            line-height: 1.8;
+        }
+        .download-btn{
+            display: inline-block;
+            padding: 18px 60px;
+            background: linear-gradient(90deg,#f0c868,#e6a932);
+            color: #111;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(240,200,104,0.3);
+        }
+        .download-btn:hover{
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(240,200,104,0.5);
+        }
+        .tips{
+            margin-top: 40px;
+            font-size: 13px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-text">由邑互动</div>
+    <div class="company">YOUYI INTERACTIVE OFFICIAL</div>
+
+    <h1 class="game-name">Infinity Kingdom</h1>
+    <p class="desc">无尽国度正版手游，高清画质热血策略，全球同服畅玩体验</p>
+
+    <!-- 替换成你的GitHub APK直链下载地址 -->
+    <a href="在此粘贴你的APK下载链接" class="download-btn">立即下载游戏APK</a>
+
+    <p class="tips">适配安卓全机型 | 官方纯净安装包 | 全球高速下载</p>
+</body>
+</html>
